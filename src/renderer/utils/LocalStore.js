@@ -19,15 +19,16 @@ function generateSettings() {
     minToTray: false,
     minToTrayOnClose: false,
     notifications: true,
-    workRounds: 4,
     theme: null,
     tickSounds: false,
     tickSoundsDuringBreak: true,
-    timeLongBreak: 15,
-    timeShortBreak: 5,
-    timeWork: 25,
+    workRounds: 2,
+    timeLongBreak: 5,
+    timeShortBreak: 2,
+    timeWork: 30,
     volume: 100,
-    globalShortcuts: { // If new shortcuts are added, the migrations of this should be handled
+    globalShortcuts: {
+      // If new shortcuts are added, the migrations of this should be handled
       'call-timer-toggle': 'Control+F1',
       'call-timer-reset': 'Control+F2',
       'call-timer-skip': 'Control+F3'
